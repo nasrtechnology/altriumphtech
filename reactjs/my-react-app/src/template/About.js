@@ -1,0 +1,406 @@
+import "./landing-style.css";
+
+const About = () => {
+  
+  return (
+   
+     <main>
+      <section class="hero-section2">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">AL-TRIUMPH Technology FZ-LLC</p>
+          <h1>Build with confidence through <span>smart technology and bold design</span>.</h1>
+          <p class="hero-text">
+            AL-TRIUMPH Technology FZ-LLC creates modern websites, digital brand experiences, and conversion-focused business solutions powered by premium design, practical strategy, and strong technical execution.
+          </p>
+
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+            <a href="services.html" class="btn btn-outline">Explore Services</a>
+          </div>
+
+          <div class="hero-points">
+            <div class="point-item"><span>✓</span>Custom business website solutions</div>
+            <div class="point-item"><span>✓</span>Strong orange-black brand identity</div>
+            <div class="point-item"><span>✓</span>Conversion-focused modern layouts</div>
+            <div class="point-item"><span>✓</span>Technology-driven growth support</div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-card2 large-card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80" alt="Business technology collaboration"/>
+            <div class="hero-badge">
+              <strong>AL-TRIUMPH</strong>
+              <span>Technology FZ-LLC</span>
+            </div>
+          </div>
+          <div class="hero-image-card2 small-card dark-card">
+            <img src={require("./../assets/img/al-triumph_logo.png")} alt="AL-TRIUMPH logo"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container trust-grid">
+        <p>Trusted by ambitious businesses and fast-growing brands.</p>
+        <div class="trust-pill">Technology</div>
+        <div class="trust-pill">Retail</div>
+        <div class="trust-pill">Consulting</div>
+        <div class="trust-pill">E-Commerce</div>
+      </div>
+    </section>
+
+    {/*-- start creative approach section -*/}
+<section class="creative-approach-section">
+  <div class="container">
+    <div class="creative-approach-grid">
+      <div class="creative-visual">
+        <div class="experience-badge">
+          <span class="experience-number">14<sub>+</sub></span>
+          <span class="experience-text">Years working experience</span>
+        </div>
+
+        <div class="creative-main-image">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Corporate business team"/>
+        </div>
+
+        <div class="creative-floating-card card-left">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80" alt="Business discussion"/>
+        </div>
+
+        <div class="creative-floating-card card-right">
+          <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80" alt="Creative planning"/>
+        </div>
+      </div>
+
+      <div class="creative-content">
+        <span class="creative-tag">Creative approach</span>
+        <h2>Powerful agency for corporate business.</h2>
+        <p>
+          We strive to develop real-world web solutions that are ideal for small to large projects with bespoke project requirements. We create compelling web designs that fit your audience and deliver optimized, growth-focused digital experiences.
+        </p>
+
+        <div class="creative-actions">
+          <a href="about.html" class="btn btn-primary">Read About Us</a>
+          <a href="tel:1800222000" class="phone-link">📞 1 800 222 000</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="creative-counter-grid">
+      <div class="creative-counter-card">
+        <h3>4586</h3>
+        <span>Telephonic Talk</span>
+      </div>
+      <div class="creative-counter-card">
+        <h3>583</h3>
+        <span>Cases Solved</span>
+      </div>
+      <div class="creative-counter-card">
+        <h3>6548</h3>
+        <span>Coffee Cups</span>
+      </div>
+      <div class="creative-counter-card">
+        <h3>836</h3>
+        <span>Happy Clients</span>
+      </div>
+    </div>
+  </div>
+</section>
+{/*-- end creative approach section */}
+
+    <section class="section">
+      <div class="container two-column-grid">
+        <div class="image-stack">
+          <div class="stack-main">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Team working together"/>
+          </div>
+          <div class="stack-small">
+            <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80" alt="Digital planning session"/>
+          </div>
+        </div>
+
+        <div class="content-block">
+          <p class="eyebrow">About AL-TRIUMPH</p>
+          <h2>We turn ideas into modern digital experiences.</h2>
+          <p>
+            Our team combines strategy, creativity, and technical execution to build websites and digital solutions that do more than look good. We focus on stronger user journeys, better business visibility, and measurable performance.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-icon">🚀</div>
+              <div>
+                <h3>Strategic growth planning</h3>
+                <p>Every project begins with business understanding, audience alignment, and a roadmap tailored to your goals.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🎯</div>
+              <div>
+                <h3>Performance-led execution</h3>
+                <p>We design and build with speed, clarity, and conversion in mind so your digital presence supports real business results.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="projects.html" class="btn btn-primary">See Our Work</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section">
+      <div class="container section-head center-text">
+        <p class="eyebrow">Our Services</p>
+        <h2>Solutions designed for growth, visibility, and trust.</h2>
+        <p>
+          From websites and branding to strategy and digital campaigns, we build systems that help businesses attract, engage, and convert the right audience.
+        </p>
+      </div>
+
+      <div class="container service-grid">
+        <article class="service-card">
+          <div class="service-icon">💻</div>
+          <h3>Website Design & Development</h3>
+          <p>Modern, responsive, high-performing websites built to reflect your brand and support more inquiries.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3>Brand Identity Design</h3>
+          <p>Logo systems, visual direction, and brand assets that help your business look premium and consistent.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">📈</div>
+          <h3>Digital Growth Strategy</h3>
+          <p>Customer journey improvements, campaign planning, and optimization support built around your objectives.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-head">
+        <p class="eyebrow">Selected Projects</p>
+        <h2>Work that blends design, clarity, and measurable outcomes.</h2>
+      </div>
+
+      <div class="container portfolio-grid">
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Analytics dashboard project"/>
+          <div class="project-content">
+            <span class="project-tag">Web Platform</span>
+            <h3>Growth Analytics Dashboard</h3>
+            <p>A cleaner reporting experience for decision-makers with faster insights and stronger usability.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80" alt="Brand studio"/>
+          <div class="project-content">
+            <span class="project-tag">Branding</span>
+            <h3>Corporate Brand Refresh</h3>
+            <p>A refined visual identity system that positioned the company as premium, credible, and modern.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80" alt="Online business store"/>
+          <div class="project-content">
+            <span class="project-tag">E-Commerce</span>
+            <h3>Online Store Experience</h3>
+            <p>A mobile-first redesign focused on smoother shopping flow and stronger conversion performance.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+                <div class="container position-relative">
+                    <div class="row align-items-center mb-7">
+                        <div class="col-xxl-4 col-lg-5 md-mb-15 sm-mb-20 text-center text-lg-start">
+                            <span class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block">Simple process</span>
+                            <h3 class="text-dark-gray fw-700 ls-minus-2px mb-40px">Understand the business process.</h3>
+                            <div class="row row-cols-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                <div class="col-12 process-step-style-05 position-relative hover-box">
+                                    <div class="process-step-item d-flex">
+                                        <div class="process-step-icon-wrap position-relative">
+                                            <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto rounded-circle h-60px w-60px fs-14 bg-light-red fw-700 position-relative">
+                                                <span class="number position-relative z-index-1 text-dark-gray">01</span>
+                                                <div class="box-overlay bg-base-color rounded-circle"></div>
+                                            </div>
+                                            <span class="progress-step-separator bg-dark-gray opacity-1"></span>
+                                        </div>
+                                        <div class="process-content ps-30px last-paragraph-no-margin mb-30px">
+                                            <span class="d-block fw-700 text-dark-gray mb-5px fs-18">Start market research</span>
+                                            <p class="w-90 lg-w-100 lh-32">Lorem ipsum amet consectetur eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 process-step-style-05 position-relative hover-box">
+                                    <div class="process-step-item d-flex">
+                                        <div class="process-step-icon-wrap position-relative">
+                                            <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto rounded-circle h-60px w-60px fs-14 bg-light-red fw-700 position-relative">
+                                                <span class="number position-relative z-index-1 text-dark-gray">02</span>
+                                                <div class="box-overlay bg-base-color rounded-circle"></div>
+                                            </div>
+                                            <span class="progress-step-separator bg-dark-gray opacity-1"></span>
+                                        </div>
+                                        <div class="process-content ps-30px last-paragraph-no-margin mb-30px">
+                                            <span class="d-block fw-700 text-dark-gray mb-5px fs-18">Discussion of the idea</span>
+                                            <p class="w-90 lg-w-100 lh-32">Lorem ipsum amet consectetur eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 process-step-style-05 position-relative hover-box xs-mb-30px">
+                                    <div class="process-step-item d-flex">
+                                        <div class="process-step-icon-wrap position-relative">
+                                            <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto rounded-circle h-60px w-60px fs-14 bg-light-red fw-700 position-relative">
+                                                <span class="number position-relative z-index-1 text-dark-gray">03</span>
+                                                <div class="box-overlay bg-base-color rounded-circle"></div>
+                                            </div>
+                                        </div>
+                                        <div class="process-content ps-30px last-paragraph-no-margin">
+                                            <span class="d-block fw-700 text-dark-gray mb-5px fs-18">Production planning</span>
+                                            <p class="w-90 lg-w-100 lh-32">Lorem ipsum amet consectetur eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 offset-xxl-1 position-relative md-mb-30px sm-mb-15"
+                             data-anime='{ "translateX": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                            <img  src={require("./../assets/img/demo-corporate-10.webp")} class="position-relative z-index-9 top-40px" alt=""/>
+                            {/* <img src={require("./../assets/img/demo-corporate-03.png")} class="absolute-middle-center xs-w-95" alt=""/> */}
+                            <img src={require("./../assets/img/demo-corporate-06.webp")} class="position-absolute top-50px left-0px xs-left-15px"
+                                 data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)"
+                                 alt=""/>
+                            <img src={require("./../assets/img/demo-corporate-07.webp")}  class="position-absolute top-150px left-30"
+                                 data-bottom-top="transform: translateY(30px)" data-top-bottom="transform: translateY(-30px)"
+                                 alt=""/>
+                            <img src={require("./../assets/img/demo-corporate-08.webp")} class="position-absolute top-50px right-30"
+                                 data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)"
+                                 alt=""/>
+                            <img src={require("./../assets/img/demo-corporate-08.webp")}
+                                 class="position-absolute top-100px right-0px xs-right-15px"
+                                 data-bottom-top="transform: translateY(30px)" data-top-bottom="transform: translateY(-30px)"
+                                 alt=""/>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 text-center align-items-center" data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                            <div class="bg-base-color fw-700 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-12 me-10px sm-m-5px d-inline-block align-middle">hurray</div>
+                            <div class="fs-18 fw-500 text-dark-gray d-inline-block align-middle">Let's make something great work together. <a href="contact.html" class="text-dark-gray text-decoration-line-bottom fw-700">Got a project in mind?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <section class="section light-section">
+      <div class="container section-head center-text">
+        <p class="eyebrow">Business Impact</p>
+        <h2>Built to improve visibility, engagement, and growth.</h2>
+      </div>
+
+      <div class="container stats-grid">
+        <div class="stat-card"><h3>+320%</h3><p>Qualified lead growth</p></div>
+        <div class="stat-card"><h3>+210%</h3><p>Brand engagement increase</p></div>
+        <div class="stat-card"><h3>4.9/5</h3><p>Average client satisfaction</p></div>
+        <div class="stat-card"><h3>24/7</h3><p>Reliable digital presence</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container section-head center-text">
+        <p class="eyebrow">Pricing Plans</p>
+        <h2>Flexible packages for different stages of growth.</h2>
+      </div>
+
+      <div class="container pricing-grid">
+        <article class="pricing-card">
+          <h3>Starter</h3>
+          <div class="price">$250 <span>/ project</span></div>
+          <p>Ideal for small businesses that need a professional starting point online.</p>
+          <ul>
+            <li>Landing page design</li>
+            <li>Responsive mobile layout</li>
+            <li>Basic contact section</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline">Choose Starter</a>
+        </article>
+
+        <article class="pricing-card featured">
+          <span class="featured-badge">Most Popular</span>
+          <h3>Business</h3>
+          <div class="price">$450 <span>/ project</span></div>
+          <p>Perfect for businesses that want stronger branding, more sections, and better conversion support.</p>
+          <ul>
+            <li>Multi-section company website</li>
+            <li>Custom branding layout</li>
+            <li>Performance-focused UX structure</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Choose Business</a>
+        </article>
+
+        <article class="pricing-card">
+          <h3>Enterprise</h3>
+          <div class="price">$750 <span>/ custom</span></div>
+          <p>For advanced brands that need tailored strategy, design systems, and scalable implementation.</p>
+          <ul>
+            <li>Custom design system</li>
+            <li>Advanced conversion strategy</li>
+            <li>Priority revisions and support</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline">Choose Enterprise</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section light-section">
+      <div class="container section-head center-text">
+        <p class="eyebrow">Client Feedback</p>
+        <h2>What our clients value most.</h2>
+      </div>
+
+      <div class="container testimonial-grid">
+        <article class="testimonial-card">
+          <p>“AL-TRIUMPH helped us launch a much more professional website. The new design improved trust instantly and made our business look far more established.”</p>
+          <h4>Sarah Khan</h4>
+          <span>Founder, Retail Brand</span>
+        </article>
+
+        <article class="testimonial-card">
+          <p>“The team was fast, detail-oriented, and easy to work with. They turned our rough concept into a polished digital experience with real business value.”</p>
+          <h4>James Walter</h4>
+          <span>Director, Consulting Firm</span>
+        </article>
+
+        <article class="testimonial-card">
+          <p>“From design to delivery, everything felt custom and thoughtful. We now have a stronger brand presence and a site we are proud to share.”</p>
+          <h4>Maria Lopez</h4>
+          <span>Marketing Lead, Service Company</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section compact-section">
+      <div class="container cta-box">
+        <div>
+          <h2>Let’s build a stronger digital presence for your business.</h2>
+          <p>Tell us about your goals, timeline, and the type of solution you need. We’ll help shape the right next step.</p>
+        </div>
+        <div class="cta-panel">
+          <p>Interested in working together?</p>
+          <a href="mailto:hello@altriumphtechnology.com">hello@altriumphtechnology.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  );
+};
+
+export default About;

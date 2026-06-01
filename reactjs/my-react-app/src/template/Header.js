@@ -1,5 +1,5 @@
 import new_logo from "./../assets/img/new_logo.png";
-
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -21,13 +21,13 @@ const Header = () => {
             </button>
 
             <nav class="nav-menu" id="navMenu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
-                <a href="#">Pricing</a>
-                <a href="#">Team</a>
-                <a href="#">Contact</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/">Services</Link>
+                <Link to="/">Projects</Link>
+                <Link to="/">Pricing</Link>
+                <Link to="/">Team</Link>
+                <Link to="/contact">Contact</Link>
             </nav>
 
             <a href="#" class="btn btn-primary nav-cta">Get Started</a>

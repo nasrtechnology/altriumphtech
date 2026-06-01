@@ -12,11 +12,11 @@
   --radius: 22px;
   --container: 1180px;
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 html {
@@ -235,6 +235,7 @@ p {
   grid-template-columns: 1fr 1fr;
   gap: 34px;
   align-items: center;
+
 }
 
 .hero-logo-card {

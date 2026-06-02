@@ -23,14 +23,13 @@ const Header = () => {
             <nav class="nav-menu" id="navMenu">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
-                <Link to="/">Services</Link>
-                <Link to="/">Projects</Link>
-                <Link to="/">Pricing</Link>
-                <Link to="/">Team</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/pricing">Pricing</Link>
+                <Link to="/team">Team</Link>
                 <Link to="/contact">Contact</Link>
             </nav>
 
-            <a href="#" class="btn btn-primary nav-cta">Get Started</a>
+            {/* <a href="#" class="btn btn-primary nav-cta">Get Started</a> */}
             </div>
   </header>
     )

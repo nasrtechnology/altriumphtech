@@ -1,5 +1,5 @@
 import './App.css';
-import './template/company-style.css';
+import './template/main-style.css';
 import "./assets/css/icon.min.css";
 import "./assets/css/navbar.css";
 import Header from "./template/Header";
@@ -14,6 +14,9 @@ import {
 
 import About from "./template/About";
 import Contact from "./template/Contact";
+import Projects from "./template/Projects";
+import Pricing from "./template/Pricing";
+import Team from "./template/Team";
 
 
 function App() {
@@ -31,10 +34,22 @@ function App() {
           element={<About />}
         />
 
-        {/* <Route
+        <Route
+          path="/projects"
+          element={<Projects />}
+        />
+        <Route
+          path="/pricing"
+          element={<Pricing />}
+        />
+         <Route
+          path="/team"
+          element={<Team />}
+        />
+        <Route
           path="/contact"
           element={<Contact />}
-        /> */}
+        />
       </Routes>
 
       <Footer />

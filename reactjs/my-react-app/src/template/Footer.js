@@ -1,4 +1,5 @@
 import new_logo from "./../assets/img/new_logo.png";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -29,10 +30,11 @@ const Footer = () => {
                 <div>
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/team">Team</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
 

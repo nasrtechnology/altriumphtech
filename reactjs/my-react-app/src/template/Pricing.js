@@ -29,11 +29,6 @@ const fmtAED = (value) =>
   new Intl.NumberFormat("en-AE", { style: "currency", currency: "AED", maximumFractionDigits: 0 }).format(value);
 
 const Pricing = () => {
-  const [completedSteps, setCompletedSteps] = React.useState({});
-
-  const toggleComplete = (idx) => {
-    setCompletedSteps((s) => ({ ...s, [idx]: !s[idx] }));
-  };
   return (
     <main>
       <section className="page-hero-section pricing-hero">
@@ -94,7 +89,7 @@ const Pricing = () => {
       </section>
       
 
-      <section className="pricing-benefits-section">
+      {/* <section className="pricing-benefits-section">
         <div className="container benefit-grid">
           <article className="benefit-card">
             <div className="benefit-icon" aria-hidden>
@@ -140,7 +135,7 @@ const Pricing = () => {
             </div>
           </article>
         </div>
-      </section>
+      </section> */}
       
     </main>
   );

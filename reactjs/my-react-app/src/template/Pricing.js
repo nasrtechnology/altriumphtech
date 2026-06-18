@@ -87,56 +87,47 @@ const Pricing = () => {
           })}
         </div>
       </section>
-      
 
-      {/* <section className="pricing-benefits-section">
-        <div className="container benefit-grid">
-          <article className="benefit-card">
-            <div className="benefit-icon" aria-hidden>
-              <svg width="42" height="42" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L20 6v6c0 5-4 9-8 10-4-1-8-5-8-10V6l8-4z" stroke="#1f242e" strokeWidth="1.2" strokeLinejoin="round" strokeLinecap="round"/></svg>
-            </div>
-            <div>
-              <h3 className="benefit-title">Services you recognize</h3>
-              <p className="benefit-desc">Strategy, Digital Platforms, Legal Tech, Operations — the same capabilities you saw in our case studies.</p>
-              <ul className="benefit-list">
-                <li>Strategy & Consulting</li>
-                <li>Digital Transformation</li>
-                <li>Legal & Compliance Advisory</li>
-                <li>Operations & Supply Chain</li>
-              </ul>
-            </div>
-          </article>
+      <section className="pricing-support-section">
+        <div className="container pricing-support-grid">
+          <div className="pricing-support-media">
+            <img src={require("./../assets/img/phone_icon1.png")} alt="AL-TRIUMPH support illustration" />
+          </div>
 
-          <article className="benefit-card">
-            <div className="benefit-icon" aria-hidden>
-              <svg width="42" height="42" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12h3l3 6 9-12h3" stroke="#1f242e" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            </div>
-            <div>
-              <h3 className="benefit-title">Fast delivery</h3>
-              <p className="benefit-desc">Clear timelines, milestone-based delivery, and defined KPIs so you can measure impact fast.</p>
-              <div className="benefit-meta">
-                <div><strong>Typical timelines:</strong> 6-10 weeks (pilot)</div>
-                <div><strong>Onboarding:</strong> 7 days</div>
-              </div>
-            </div>
-          </article>
+          <div className="pricing-support-content">
+            <div className="support-badge">Customer support</div>
+            <h2 className="support-title">Have you a question?</h2>
 
-          <article className="benefit-card">
-            <div className="benefit-icon" aria-hidden>
-              <svg width="42" height="42" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v6l4 2v6l-4 4-4-4v-6l4-2V2z" stroke="#1f242e" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            <div className="support-faqs">
+              <details className="support-faq" open>
+                <summary>How can AL TRIUMPH Technology help my business?</summary>
+                <p>We help businesses improve efficiency, reduce manual work, and increase growth through custom software development, AI solutions, mobile apps, websites, automation, ERP systems, and digital transformation services.</p>
+              </details>
+
+              <details className="support-faq">
+                <summary>What industries do you work with?</summary>
+                <p>We work with startups, SMEs, enterprises, fintech companies, healthcare providers, real estate agencies, logistics companies, e-commerce businesses, and government organizations.</p>
+              </details>
+
+              <details className="support-faq">
+                <summary>Can you improve or fix my existing software or website?</summary>
+                <p>Yes. Our team can audit, optimize, upgrade, and maintain existing websites, mobile applications, and software systems to improve performance, security, and user experience.</p>
+              </details>
+
+                <details className="support-faq">
+                <summary>How long does a project usually take?</summary>
+                <p>Project timelines depend on complexity. Small websites may take 1–3 weeks, while custom software, AI platforms, or enterprise solutions can take several weeks or months. We provide a clear timeline before development begins.</p>
+              </details>
+
+                <details className="support-faq">
+                <summary>Do you provide ongoing support after project completion?</summary>
+                <p>Absolutely. We offer maintenance, technical support, security updates, performance monitoring, and feature enhancements to ensure your solution continues running smoothly.</p>
+              </details>
             </div>
-            <div>
-              <h3 className="benefit-title">Local UAE compliance</h3>
-              <p className="benefit-desc">Local billing, VAT-aware contracts, and MENA-friendly documentation to keep procurement straightforward.</p>
-              <div className="benefit-meta">
-                <div><strong>VAT:</strong> 5% calculated on each invoice</div>
-                <div><strong>Invoicing:</strong> AED invoices with full breakdown</div>
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
-      </section> */}
-      
+      </section>
+
     </main>
   );
 };

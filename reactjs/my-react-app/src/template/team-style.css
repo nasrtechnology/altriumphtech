@@ -183,15 +183,6 @@ p {
   color: var(--primary-dark);
 }
 
-.menu-toggle {
-  display: none;
-  background: transparent;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 8px 12px;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
 
 .page-hero {
   padding: 88px 0 72px;
@@ -437,6 +428,8 @@ p {
     align-items: flex-start;
     padding-top: 12px;
     gap: 14px;
+    margin-left: 147px;
+    padding-left: 11px;
   }
 
   .nav-menu.show {

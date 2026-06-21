@@ -19,10 +19,6 @@ const Footer = () => {
                 <div>
                     <div class="footer-brand">
                         <img src={new_logo} alt="AL-TRIUMPH logo" />
-                        <div>
-                            <span>AL-TRIUMPH</span>
-                            <span>Technology</span>
-                        </div>
                     </div>
                     <p>Modern digital solutions, branding, and business support for companies that want to grow with confidence.</p>
                 </div>

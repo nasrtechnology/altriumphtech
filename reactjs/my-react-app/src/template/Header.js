@@ -20,10 +20,6 @@ const Header = () => {
             alt="AL-TRIUMPH Technology FZ-LLC logo"
             className="brand-logo"
           />
-          <div className="brand-copy">
-            <strong>AL-TRIUMPH</strong>
-            <span>Technology</span>
-          </div>
         </Link>
 
         <button
@@ -45,6 +41,9 @@ const Header = () => {
           </Link>
           <Link to="/projects" onClick={closeMenu}>
             Projects
+          </Link>
+          <Link to="/services" onClick={closeMenu}>
+            Services
           </Link>
           <Link to="/pricing" onClick={closeMenu}>
             Pricing

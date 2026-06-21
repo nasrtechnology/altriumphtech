@@ -137,13 +137,6 @@ p {
   gap: 14px;
 }
 
-.brand-logo,
-.footer-brand img {
-  height: 54px;
-  width: auto;
-  object-fit: contain;
-}
-
 .brand-copy {
   display: flex;
   flex-direction: column;

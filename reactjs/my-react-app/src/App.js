@@ -17,6 +17,7 @@ import Contact from "./template/Contact";
 import Projects from "./template/Projects";
 import Pricing from "./template/Pricing";
 import Team from "./template/Team";
+import Services from "./template/Services";
 
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
         <Route
           path="/pricing"
           element={<Pricing />}
+        />
+        <Route
+          path="/services"
+          element={<Services />}
         />
          <Route
           path="/team"
